@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future International Co., Ltd. | 未来国際株式会社</title>
+    <meta name="description"
+        content="Future International Co., Ltd. - Software Development, Real Estate, Tourism, and Trade.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@400;600&family=Outfit:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="#home">Future International</a>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+                    <li><a href="about.html" class="active" data-i18n="nav_about">About</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Services</a></li>
+                    <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="lang-switch">
+                <button onclick="setLanguage('en')">EN</button> /
+                <button onclick="setLanguage('jp')">JP</button> /
+                <button onclick="setLanguage('cn')">CN</button>
+            </div>
+            <div class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <span class="hero-intro">No.1 Partner for You</span>
+                <h1 data-i18n="hero_catchphrase">Connecting the Future<br>with Technology and Trust.</h1>
+                <p data-i18n="company_advantages">Global Vision | Professional Expertise | Customer First</p>
+                <a href="contact.html" class="btn-primary" data-i18n="cta_contact">Contact Us</a>
+            </div>
+        </section>
+
+        <!-- PICK UP / Services -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="section_services">Pick Up</h2>
+            </div>
+            <div class="pickup-grid">
+                <a href="services.html" class="pickup-item">
+                    <img src="https://placehold.co/600x600/333/fff?text=Software+Dev" alt="Software Development">
+                    <div class="pickup-overlay">
+                        <h3 class="pickup-title" data-i18n="service_software_dev">Software Development</h3>
+                        <span class="pickup-desc">Innovative Solutions</span>
+                    </div>
+                </a>
+                <a href="services.html" class="pickup-item">
+                    <img src="https://placehold.co/600x600/4DB6AC/fff?text=Real+Estate" alt="Real Estate">
+                    <div class="pickup-overlay">
+                        <h3 class="pickup-title" data-i18n="service_real_estate">Real Estate</h3>
+                        <span class="pickup-desc">Global Properties</span>
+                    </div>
+                </a>
+                <a href="services.html" class="pickup-item">
+                    <img src="https://placehold.co/600x600/555/fff?text=Global+Trade" alt="Trade">
+                    <div class="pickup-overlay">
+                        <h3 class="pickup-title" data-i18n="service_trade">Trade</h3>
+                        <span class="pickup-desc">Import & Export</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h2 data-i18n="footer_company_name">Future International</h2>
+                    <p data-i18n="footer_desc" style="color: #999; line-height: 1.6;">
+                        Excellence in Technology, Real Estate, and Trade.<br>
+                        Connecting the world for a better future.
+                    </p>
+                </div>
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+                        <li><a href="about.html" data-i18n="nav_about">About Us</a></li>
+                        <li><a href="services.html" data-i18n="nav_services">Services</a></li>
+                        <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+                        <li><a href="#" data-i18n="footer_privacy">Privacy Policy</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="copyright">
+                <p data-i18n="footer_copyright">&copy; 2025 Future International Co., Ltd. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

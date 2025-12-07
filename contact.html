@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Future International Co., Ltd.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Outfit:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">Future International</a>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">About</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Services</a></li>
+                    <li><a href="contact.html" class="active" data-i18n="nav_contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="lang-switch">
+                <button onclick="setLanguage('en')">EN</button> /
+                <button onclick="setLanguage('jp')">JP</button> /
+                <button onclick="setLanguage('cn')">CN</button>
+            </div>
+            <div class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="page-header">
+            <div class="container">
+                <h1 data-i18n="section_contact">Contact Us</h1>
+            </div>
+        </div>
+
+        <section class="section">
+            <div class="container">
+                <p class="text-center" style="margin-bottom: 50px;" data-i18n="contact_intro">Please feel free to
+                    contact us.</p>
+
+                <div class="contact-wrapper">
+                    <!-- Left: Contact Info & Map -->
+                    <div class="contact-info">
+                        <div class="address-item">
+                            <h4 data-i18n="label_address">Address</h4>
+                            <p data-i18n="address">301, 7-33, Shinkitajima 1-chome, Suminoe-ku, Osaka-shi, Osaka
+                                559-0024</p>
+                        </div>
+                        <div class="address-item">
+                            <h4 data-i18n="label_phone">Phone</h4>
+                            <p>06-XXXX-XXXX</p>
+                        </div>
+                        <div class="address-item">
+                            <h4 data-i18n="label_email">Email</h4>
+                            <p>info@miraikokusai.co.jp</p>
+                        </div>
+
+                        <div class="map-container"
+                            style="height: 250px; background-color: #eee; display: flex; justify-content: center; align-items: center; color: #999; margin-top: 30px;">
+                            <!-- Google Maps Placeholder -->
+                            Google Maps Embed
+                        </div>
+
+                        <div class="qr-section">
+                            <div class="qr-item">
+                                <img src="assets/images/line.jpg" alt="Line QR Code">
+                                <p>LINE</p>
+                            </div>
+                            <div class="qr-item">
+                                <img src="assets/images/wechat.jpg" alt="WeChat QR Code">
+                                <p>WeChat</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Email Form -->
+                    <div class="contact-form-container">
+                        <h3 data-i18n="label_email_form" style="margin-bottom: 25px;">Inquiry Form</h3>
+                        <form id="contactForm" class="contact-form">
+                            <label for="name" data-i18n="label_name">Name</label>
+                            <input type="text" id="name" name="name" required>
+
+                            <label for="email" data-i18n="label_email">Email</label>
+                            <input type="email" id="email" name="email" required>
+
+                            <label for="subject" data-i18n="label_subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="" data-i18n="select_subject">Please select</option>
+                                <option value="software" data-i18n="service_software_dev">Software Development</option>
+                                <option value="realestate" data-i18n="service_real_estate">Real Estate</option>
+                                <option value="tourism" data-i18n="service_tourism">Tourism</option>
+                                <option value="trade" data-i18n="service_trade">Trade</option>
+                                <option value="other" data-i18n="subject_other">Other</option>
+                            </select>
+
+                            <label for="message" data-i18n="label_message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+
+                            <button type="submit" class="btn-primary" data-i18n="btn_submit" style="width: 100%;">Send
+                                Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h2 data-i18n="footer_company_name">Future International</h2>
+                    <p data-i18n="footer_desc" style="color: #999; line-height: 1.6;">
+                        Excellence in Technology, Real Estate, and Trade.<br>
+                        Connecting the world for a better future.
+                    </p>
+                </div>
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+                        <li><a href="about.html" data-i18n="nav_about">About Us</a></li>
+                        <li><a href="services.html" data-i18n="nav_services">Services</a></li>
+                        <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+                        <li><a href="#" data-i18n="footer_privacy">Privacy Policy</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="copyright">
+                <p data-i18n="footer_copyright">&copy; 2025 Future International Co., Ltd. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
