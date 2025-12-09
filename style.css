@@ -216,10 +216,27 @@ img {
 
 .mobile-toggle {
     display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.mobile-toggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background: var(--text-dark);
+    border-radius: 2px;
+    transition: var(--transition);
 }
 
 /* Mobile Menu Styles */
 @media (max-width: 768px) {
+    .mobile-toggle {
+        display: flex;
+    }
+
     .nav-menu {
         position: fixed;
         top: var(--header-height);
@@ -1051,28 +1068,6 @@ footer::before {
 @media (max-width: 768px) {
     .container {
         padding: 0 25px;
-    }
-
-    .nav-menu {
-        display: none;
-    }
-
-    /* Mobile menu simplified */
-    .mobile-toggle {
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        cursor: pointer;
-        z-index: 1001;
-    }
-
-    .mobile-toggle span {
-        display: block;
-        width: 28px;
-        height: 3px;
-        background: var(--text-dark);
-        border-radius: 2px;
-        transition: var(--transition);
     }
 
     .hero {
