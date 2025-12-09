@@ -6,7 +6,7 @@ const translations = {
         'nav_contact': 'Contact',
         'hero_title': 'Pioneering the Future, Beyond Boundaries',
         'hero_subtitle': 'Future International Co., Ltd. delivers world-class solutions in Software, Real Estate, Tourism, and Global Trade.',
-        'cta_contact': 'Partner With Us',
+        'cta_contact': 'Contact Us',
 
         'section_about': 'About Future International',
         'company_name': 'Future International Co., Ltd.',
@@ -23,25 +23,49 @@ const translations = {
         'section_services': 'Our Business Pillars',
         'services_intro_main': 'A comprehensive suite of professional services designed to elevate your business to the global stage.',
 
-        'service_software_dev': 'Advanced Software Development',
-        'service_software_dev_desc': 'From concept to deployment, we build robust digital infrastructures.',
+        'service_software_dev': 'Software Development',
+        'service_software_dev_desc': 'Innovative Solutions',
         'service_software_dev_detail': 'We specialize in agile development of web and mobile applications, utilizing modern stacks (React, Node.js, Python/Django). Our team ensures scalable architecture, rigorous testing, and seamless cloud integration (AWS/Azure) to future-proof your digital assets.',
 
-        'service_consulting': 'Strategic IT Consulting',
-        'service_consulting_desc': 'Navigating digital transformation with expert guidance.',
+        'service_consulting': 'IT Consulting',
+        'service_consulting_desc': 'Digital Transformation',
         'service_consulting_detail': 'We analyze your current operational bottlenecks and prescribe tailored technological solutions. Our consulting covers Digital Transformation (DX) strategy, IT security auditing, and system optimization to maximize ROI and operational efficiency.',
 
-        'service_real_estate': 'Premium Real Estate Services',
-        'service_real_estate_desc': 'Unlocking value in the Japanese property market.',
+        'service_real_estate': 'Real Estate',
+        'service_real_estate_desc': 'Global Properties',
         'service_real_estate_detail': 'For investors and expatriates, we offer end-to-end real estate solutions. This includes market analysis, property acquisition (residential & commercial), luxury rental management, and legal compliance support for overseas investors entering the Osaka and Kansai markets.',
 
-        'service_tourism': 'Luxury & Business Tourism',
-        'service_tourism_desc': 'Curated experiences for the discerning traveler.',
+        'service_tourism': 'Tourism',
+        'service_tourism_desc': 'Business & Leisure',
         'service_tourism_detail': 'Beyond standard sightseeing, we organize VIP medical tourism, corporate inspection tours, and cultural immersion programs. We handle all logistics, from private transport to exclusive accommodation, ensuring a seamless and enriching stay in Japan.',
 
-        'service_trade': 'Global Import/Export',
-        'service_trade_desc': 'Connecting markets with speed and reliability.',
-        'service_trade_detail': 'We facilitate the cross-border flow of goods.',
+        'service_trade': 'Trade',
+        'service_trade_desc': 'Import & Export',
+        'service_trade_detail': 'We facilitate the cross-border flow of goods between markets with speed and reliability.',
+        'service_trade_item1': 'Import/Export Management',
+        'service_trade_item2': 'Market Entry Support',
+        'service_trade_item3': 'Logistics Coordination',
+        'service_trade_item4': 'Sourcing & Procurement',
+
+        'service_software_item1': 'Web Application Development',
+        'service_software_item2': 'Mobile App (iOS/Android)',
+        'service_software_item3': 'Custom System Integration',
+        'service_software_item4': 'UI/UX Design',
+
+        'service_consulting_item1': 'Digital Transformation (DX) Strategy',
+        'service_consulting_item2': 'IT Infrastructure Planning',
+        'service_consulting_item3': 'Security Audit & Compliance',
+        'service_consulting_item4': 'Tech Stack Optimization',
+
+        'service_realestate_item1': 'Property Sales & Leasing',
+        'service_realestate_item2': 'Investment Consulting',
+        'service_realestate_item3': 'Property Management',
+        'service_realestate_item4': 'International Relocation Support',
+
+        'service_tourism_item1': 'Custom Tour Planning',
+        'service_tourism_item2': 'Business Trip Management',
+        'service_tourism_item3': 'Interpreter Guide Services',
+        'service_tourism_item4': 'Cultural Experiences',
 
         'hero_catchphrase': 'Connecting the Future with Technology and Trust.',
         'company_advantages': 'Global Vision | Professional Expertise | Customer First',
@@ -108,25 +132,49 @@ const translations = {
         'section_services': '事業領域',
         'services_intro_main': '世界を舞台にビジネスを飛躍させるための、包括的なプロフェッショナルサービス。',
 
-        'service_software_dev': '高度ソフトウェア開発',
-        'service_software_dev_desc': '構想から実装まで、堅牢なデジタルインフラを構築します。',
+        'service_software_dev': 'ソフトウェア開発',
+        'service_software_dev_desc': '革新的なソリューション',
         'service_software_dev_detail': 'Webおよびモバイルアプリケーションのアジャイル開発を専門とし、最新の技術スタック（React, Node.js, Python）を活用します。スケーラブルなアーキテクチャ設計、厳格なテスト、そしてAWS/Azure等のクラウド統合により、お客様のデジタル資産を未来へつなぎます。',
 
-        'service_consulting': '戦略的ITコンサルティング',
-        'service_consulting_desc': '専門的なガイダンスでデジタルトランスフォーメーションを導きます。',
+        'service_consulting': 'ITコンサルティング',
+        'service_consulting_desc': 'デジタルトランスフォーメーション',
         'service_consulting_detail': 'お客様の業務ボトルネックを分析し、最適な技術ソリューションを処方します。DX戦略の策定、ITセキュリティ監査、システム最適化など、ROIと業務効率を最大化するためのコンサルティングを提供します。',
 
-        'service_real_estate': 'プレミアム不動産サービス',
-        'service_real_estate_desc': '日本市場における不動産価値を最大化します。',
+        'service_real_estate': '不動産サービス',
+        'service_real_estate_desc': 'グローバル不動産',
         'service_real_estate_detail': '投資家や駐在員のお客様に対し、エンドツーエンドの不動産ソリューションを提供します。市場分析から物件取得（住宅・商業）、高級賃貸管理、そして海外投資家のための法的サポートまで、大阪・関西圏での不動産活動をトータルサポートします。',
 
-        'service_tourism': '観光・インバウンド事業',
-        'service_tourism_desc': '特別な旅の体験と、円滑なビジネス視察を演出します。',
+        'service_tourism': '観光事業',
+        'service_tourism_desc': 'ビジネス＆レジャー',
         'service_tourism_detail': '一般的な観光を超え、VIP向け医療ツーリズム、企業視察ツアー、文化体験プログラムを企画・運営します。専用車の手配から厳選された宿泊施設まで、日本滞在中のすべてのロジスティクスを管理し、快適で充実した時間を提供します。',
 
-        'service_trade': '国際貿易（輸出入）',
-        'service_trade_desc': 'スピードと信頼で、世界中の市場を繋ぎます。',
-        'service_trade_detail': 'ハイテク電子機器から伝統工芸品まで、多岐にわたる商品の取引を促進します。',
+        'service_trade': '貿易事業',
+        'service_trade_desc': '輸出入サービス',
+        'service_trade_detail': 'スピードと信頼で、世界中の市場間での商品の流通を促進します。',
+        'service_trade_item1': '輸出入管理',
+        'service_trade_item2': '市場参入支援',
+        'service_trade_item3': '物流コーディネート',
+        'service_trade_item4': '調達・ソーシング',
+
+        'service_software_item1': 'Webアプリケーション開発',
+        'service_software_item2': 'モバイルアプリ（iOS/Android）',
+        'service_software_item3': 'カスタムシステム統合',
+        'service_software_item4': 'UI/UXデザイン',
+
+        'service_consulting_item1': 'デジタルトランスフォーメーション（DX）戦略',
+        'service_consulting_item2': 'ITインフラ計画',
+        'service_consulting_item3': 'セキュリティ監査・コンプライアンス',
+        'service_consulting_item4': '技術スタック最適化',
+
+        'service_realestate_item1': '不動産売買・賃貸',
+        'service_realestate_item2': '投資コンサルティング',
+        'service_realestate_item3': '物件管理',
+        'service_realestate_item4': '海外移住サポート',
+
+        'service_tourism_item1': 'カスタムツアー企画',
+        'service_tourism_item2': '出張管理',
+        'service_tourism_item3': '通訳ガイドサービス',
+        'service_tourism_item4': '文化体験プログラム',
 
         'hero_catchphrase': 'テクノロジーと信頼で、未来を繋ぐ。',
         'company_advantages': 'グローバル対応 | 専門知識 | 顧客第一',
@@ -193,25 +241,49 @@ const translations = {
         'section_services': '核心业务',
         'services_intro_main': '旨在将您的业务提升至全球舞台的全方位专业服务套件。',
 
-        'service_software_dev': '高端软件开发',
-        'service_software_dev_desc': '从概念到部署，构建稳健的数字基础设施。',
+        'service_software_dev': '软件开发',
+        'service_software_dev_desc': '创新解决方案',
         'service_software_dev_detail': '我们专长于Web及移动应用程序的敏捷开发，运用现代技术栈（React, Node.js, Python/Django）。我们的团队确保可扩展的架构设计、严格的测试以及无缝的云集成（AWS/Azure），为您的数字资产提供面向未来的保障。',
 
-        'service_consulting': '战略IT咨询',
-        'service_consulting_desc': '以专家级指导引领数字化转型。',
+        'service_consulting': 'IT咨询',
+        'service_consulting_desc': '数字化转型',
         'service_consulting_detail': '我们深入分析您的运营瓶颈并开具量身定制的技术解决方案。咨询服务涵盖数字化转型（DX）战略、IT安全审计及系统优化，旨在最大化投资回报率（ROI）及运营效率。',
 
-        'service_real_estate': '优选不动产服务',
-        'service_real_estate_desc': '最大化日本市场的不动产价值。',
+        'service_real_estate': '房地产服务',
+        'service_real_estate_desc': '全球房地产',
         'service_real_estate_detail': '为投资者及外籍人士提供端到端的不动产解决方案。包括市场分析、物业购置（住宅及商业）、豪华租赁管理，以及为进入大阪及关西市场的海外投资者提供法律合规支持。',
 
-        'service_tourism': '高端商务旅游',
-        'service_tourism_desc': '为独具慧眼的旅客打造专属体验。',
+        'service_tourism': '旅游服务',
+        'service_tourism_desc': '商务与休闲',
         'service_tourism_detail': '超越普通观光，我们策划VIP医疗旅游、企业考察团及文化深度体验项目。从私人交通安排到严选住宿，我们全权处理所有后勤事务，确保留日期间的顺畅与丰富体验。',
 
-        'service_trade': '国际进出口贸易',
-        'service_trade_desc': '以速度与信赖连接全球市场。',
-        'service_trade_detail': '促进从高科技电子产品到传统工艺品等多种商品的跨境流通。',
+        'service_trade': '贸易服务',
+        'service_trade_desc': '进出口业务',
+        'service_trade_detail': '以速度与信赖连接全球市场，促进商品的跨境流通。',
+        'service_trade_item1': '进出口管理',
+        'service_trade_item2': '市场准入支持',
+        'service_trade_item3': '物流协调',
+        'service_trade_item4': '采购与供应',
+
+        'service_software_item1': 'Web应用程序开发',
+        'service_software_item2': '移动应用（iOS/Android）',
+        'service_software_item3': '定制系统集成',
+        'service_software_item4': 'UI/UX设计',
+
+        'service_consulting_item1': '数字化转型（DX）战略',
+        'service_consulting_item2': 'IT基础设施规划',
+        'service_consulting_item3': '安全审计与合规',
+        'service_consulting_item4': '技术栈优化',
+
+        'service_realestate_item1': '房地产销售与租赁',
+        'service_realestate_item2': '投资咨询',
+        'service_realestate_item3': '物业管理',
+        'service_realestate_item4': '国际搬迁支持',
+
+        'service_tourism_item1': '定制旅游规划',
+        'service_tourism_item2': '商务出行管理',
+        'service_tourism_item3': '口译导游服务',
+        'service_tourism_item4': '文化体验项目',
 
         'hero_catchphrase': '科技为帆，信赖为桨，连接世界，共创未来。',
         'company_advantages': '全球视野 | 专业技术 | 客户至上',
@@ -284,4 +356,75 @@ function setLanguage(lang) {
 document.addEventListener('DOMContentLoaded', () => {
     const savedLang = localStorage.getItem('preferredLanguage') || 'jp';
     setLanguage(savedLang);
+
+    // Header scroll effect
+    const header = document.getElementById('header');
+    let lastScroll = 0;
+
+    window.addEventListener('scroll', () => {
+        const currentScroll = window.pageYOffset;
+        
+        if (currentScroll > 100) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+        
+        lastScroll = currentScroll;
+    });
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+
+    // Form submission handler
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Thank you for your message! We will get back to you soon.');
+            contactForm.reset();
+        });
+    }
+
+    // Mobile menu toggle
+    const mobileToggle = document.querySelector('.mobile-toggle');
+    const navMenu = document.querySelector('.nav-menu');
+    
+    if (mobileToggle && navMenu) {
+        mobileToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            mobileToggle.classList.toggle('active');
+        });
+    }
+
+    // Intersection Observer for fade-in animations
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+            }
+        });
+    }, observerOptions);
+
+    // Observe elements with fade-in class
+    document.querySelectorAll('.feature-row, .vision-section, .news-card').forEach(el => {
+        observer.observe(el);
+    });
 });

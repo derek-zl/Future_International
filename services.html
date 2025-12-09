@@ -8,9 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Outfit:wght@300;400;500;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="script.js" defer></script>
 </head>
 
@@ -23,7 +21,6 @@
             <nav class="nav-menu">
                 <ul>
                     <li><a href="index.html" data-i18n="nav_home">Home</a></li>
-                    <li><a href="news.html" data-i18n="nav_news">News</a></li>
                     <li><a href="about.html" data-i18n="nav_about">About</a></li>
                     <li><a href="services.html" class="active" data-i18n="nav_services">Services</a></li>
                     <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
@@ -44,12 +41,13 @@
 
     <main>
         <div class="page-header">
+            <div class="tech-grid-bg"></div>
             <div class="container">
                 <h1 data-i18n="section_services">Our Services</h1>
             </div>
         </div>
 
-        <section class="section">
+        <section class="section bg-white">
             <div class="container">
 
                 <!-- Business 1: Software Development -->
@@ -61,15 +59,14 @@
                     <div class="feature-text">
                         <span class="feature-number">01</span>
                         <h3 class="feature-title" data-i18n="service_software_dev">Software Development</h3>
-                        <p class="feature-desc" data-i18n="service_software_dev_desc">
-                            We build high-performance, scalable web applications and software solutions tailored to
-                            optimize your business operations.
+                        <p class="feature-desc" data-i18n="service_software_dev_detail">
+                            We specialize in agile development of web and mobile applications, utilizing modern stacks (React, Node.js, Python/Django). Our team ensures scalable architecture, rigorous testing, and seamless cloud integration (AWS/Azure) to future-proof your digital assets.
                         </p>
                         <ul class="feature-list">
-                            <li>Web Application Development</li>
-                            <li>Mobile App (iOS/Android)</li>
-                            <li>Custom System Integration</li>
-                            <li>UI/UX Design</li>
+                            <li data-i18n="service_software_item1">Web Application Development</li>
+                            <li data-i18n="service_software_item2">Mobile App (iOS/Android)</li>
+                            <li data-i18n="service_software_item3">Custom System Integration</li>
+                            <li data-i18n="service_software_item4">UI/UX Design</li>
                         </ul>
                     </div>
                 </div>
@@ -82,15 +79,14 @@
                     <div class="feature-text">
                         <span class="feature-number">02</span>
                         <h3 class="feature-title" data-i18n="service_consulting">IT Consulting</h3>
-                        <p class="feature-desc" data-i18n="service_consulting_desc">
-                            Strategic technology advice to help you transform your business and stay ahead in the
-                            digital age.
+                        <p class="feature-desc" data-i18n="service_consulting_detail">
+                            We analyze your current operational bottlenecks and prescribe tailored technological solutions. Our consulting covers Digital Transformation (DX) strategy, IT security auditing, and system optimization to maximize ROI and operational efficiency.
                         </p>
                         <ul class="feature-list">
-                            <li>Digital Transformation (DX) Strategy</li>
-                            <li>IT Infrastructure Planning</li>
-                            <li>Security Audit & Compliance</li>
-                            <li>Tech Stack Optimization</li>
+                            <li data-i18n="service_consulting_item1">Digital Transformation (DX) Strategy</li>
+                            <li data-i18n="service_consulting_item2">IT Infrastructure Planning</li>
+                            <li data-i18n="service_consulting_item3">Security Audit & Compliance</li>
+                            <li data-i18n="service_consulting_item4">Tech Stack Optimization</li>
                         </ul>
                     </div>
                 </div>
@@ -103,15 +99,14 @@
                     <div class="feature-text">
                         <span class="feature-number">03</span>
                         <h3 class="feature-title" data-i18n="service_real_estate">Real Estate</h3>
-                        <p class="feature-desc" data-i18n="service_real_estate_desc">
-                            Comprehensive real estate services including residential sales, commercial leasing, and
-                            property management.
+                        <p class="feature-desc" data-i18n="service_real_estate_detail">
+                            For investors and expatriates, we offer end-to-end real estate solutions. This includes market analysis, property acquisition (residential & commercial), luxury rental management, and legal compliance support for overseas investors entering the Osaka and Kansai markets.
                         </p>
                         <ul class="feature-list">
-                            <li>Property Sales & Leasing</li>
-                            <li>Investment Consulting</li>
-                            <li>Property Management</li>
-                            <li>International Relocation Support</li>
+                            <li data-i18n="service_realestate_item1">Property Sales & Leasing</li>
+                            <li data-i18n="service_realestate_item2">Investment Consulting</li>
+                            <li data-i18n="service_realestate_item3">Property Management</li>
+                            <li data-i18n="service_realestate_item4">International Relocation Support</li>
                         </ul>
                     </div>
                 </div>
@@ -124,14 +119,14 @@
                     <div class="feature-text">
                         <span class="feature-number">04</span>
                         <h3 class="feature-title" data-i18n="service_tourism">Tourism</h3>
-                        <p class="feature-desc" data-i18n="service_tourism_desc">
-                            Unforgettable travel experiences in Japan, from custom tours to business trip coordination.
+                        <p class="feature-desc" data-i18n="service_tourism_detail">
+                            Beyond standard sightseeing, we organize VIP medical tourism, corporate inspection tours, and cultural immersion programs. We handle all logistics, from private transport to exclusive accommodation, ensuring a seamless and enriching stay in Japan.
                         </p>
                         <ul class="feature-list">
-                            <li>Custom Tour Planning</li>
-                            <li>Business Trip Management</li>
-                            <li>Interpreter Guide Services</li>
-                            <li>Cultural Experiences</li>
+                            <li data-i18n="service_tourism_item1">Custom Tour Planning</li>
+                            <li data-i18n="service_tourism_item2">Business Trip Management</li>
+                            <li data-i18n="service_tourism_item3">Interpreter Guide Services</li>
+                            <li data-i18n="service_tourism_item4">Cultural Experiences</li>
                         </ul>
                     </div>
                 </div>
@@ -144,14 +139,14 @@
                     <div class="feature-text">
                         <span class="feature-number">05</span>
                         <h3 class="feature-title" data-i18n="service_trade">Trade</h3>
-                        <p class="feature-desc" data-i18n="service_trade_desc">
-                            Bridging markets with efficient import/export services and cross-border trade solutions.
+                        <p class="feature-desc" data-i18n="service_trade_detail">
+                            We facilitate the cross-border flow of goods between markets with speed and reliability.
                         </p>
                         <ul class="feature-list">
-                            <li>Import/Export Management</li>
-                            <li>Market Entry Support</li>
-                            <li>Logistics Coordination</li>
-                            <li>Sourcing & Procurement</li>
+                            <li data-i18n="service_trade_item1">Import/Export Management</li>
+                            <li data-i18n="service_trade_item2">Market Entry Support</li>
+                            <li data-i18n="service_trade_item3">Logistics Coordination</li>
+                            <li data-i18n="service_trade_item4">Sourcing & Procurement</li>
                         </ul>
                     </div>
                 </div>
