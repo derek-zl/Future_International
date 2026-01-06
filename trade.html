@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Trade | Future International Co., Ltd.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">Future International</a>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">About</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Services</a></li>
+                    <li><a href="trade.html" class="active" data-i18n="nav_trade">Trade</a></li>
+                    <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="lang-switch">
+                <button onclick="setLanguage('en')">EN</button> /
+                <button onclick="setLanguage('jp')">JP</button> /
+                <button onclick="setLanguage('cn')">CN</button>
+            </div>
+            <div class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="page-header">
+            <div class="container">
+                <h1 data-i18n="nav_trade">Global Trade</h1>
+            </div>
+        </div>
+
+        <!-- <section class="trade-stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Partner Countries</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">1000+</span>
+                        <span class="stat-label">Products Traded</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Global Support</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">99%</span>
+                        <span class="stat-label">Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section class="section bg-white">
+            <div class="container">
+                <h2 class="section-title" data-i18n="trade_products">Featured Products</h2>
+            </div>
+            <div class="container">
+                <div class="trade-filter">
+                    <button class="filter-btn active" data-filter="all" data-i18n="filter_all">All</button>
+                    <button class="filter-btn" data-filter="electronics" data-i18n="filter_electronics">Electronics</button>
+                    <button class="filter-btn" data-filter="machinery" data-i18n="filter_machinery">Machinery</button>
+                    <button class="filter-btn" data-filter="food" data-i18n="filter_food">Food & Beverage</button>
+                    <button class="filter-btn" data-filter="textile" data-i18n="filter_textile">Textile</button>
+                    <button class="filter-btn" data-filter="culture" data-i18n="filter_culture">Cultural Heritage</button>
+                </div>
+
+                <div class="products-grid">
+
+                    <div class="product-card" data-category="culture">
+                        <div class="product-image">
+                            <img src="assets/images/product1.jpg" alt="Mongolian Cup">
+                        </div>
+                        <div class="product-content">
+                            <span class="product-category">Cultural Heritage</span>
+                            <h3 class="product-title" data-i18n="product_mongolia_cup_title">Traditional Mongolian Cup</h3>
+                            <p class="product-desc" data-i18n="product_mongolia_cup_desc">An exquisite traditional Mongolian ceremonial cup, handcrafted with intricate patterns and cultural significance.</p>
+                            <div class="product-meta">
+                                <span class="product-spec" data-i18n="product_spec_handmade">Handmade</span>
+                                <span class="product-spec" data-i18n="product_spec_authentic">Authentic</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="culture">
+                        <div class="product-image">
+                            <img src="assets/images/product2.jpg" alt="Steppe Landscape">
+                        </div>
+                        <div class="product-content">
+                            <span class="product-category">Cultural Heritage</span>
+                            <h3 class="product-title" data-i18n="product_steppe_landscape_title">Mongolian Steppe Landscape</h3>
+                            <p class="product-desc" data-i18n="product_steppe_landscape_desc">A stunning landscape painting depicting the vast and beautiful Mongolian steppe grasslands under endless sky.</p>
+                            <div class="product-meta">
+                                <span class="product-spec" data-i18n="product_spec_artwork">Original Artwork</span>
+                                <span class="product-spec" data-i18n="product_spec_cultural">Cultural Value</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="culture">
+                        <div class="product-badge">Featured</div>
+                        <div class="product-image">
+                            <img src="assets/images/product3.jpg" alt="Khan Portrait">
+                        </div>
+                        <div class="product-content">
+                            <span class="product-category">Cultural Heritage</span>
+                            <h3 class="product-title" data-i18n="product_khan_portrait_title">Portrait of the Great Khan</h3>
+                            <p class="product-desc" data-i18n="product_khan_portrait_desc">A majestic portrait capturing the legacy and power of the Mongolian empire's legendary leader.</p>
+                            <div class="product-meta">
+                                <span class="product-spec" data-i18n="product_spec_historical">Historical</span>
+                                <span class="product-spec" data-i18n="product_spec_valuable">Collectible</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="product-card" data-category="textile">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop" alt="Quality Textiles">
+                        </div>
+                        <div class="product-content">
+                            <span class="product-category">Textile</span>
+                            <h3 class="product-title">High-Performance Fabrics</h3>
+                            <p class="product-desc">Technical textiles and advanced materials for industrial and consumer applications.</p>
+                            <div class="product-meta">
+                                <span class="product-spec">Eco-Friendly</span>
+                                <span class="product-spec">Custom Design</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="electronics">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=800&h=600&fit=crop" alt="Semiconductors">
+                        </div>
+                        <div class="product-content">
+                            <span class="product-category">Electronics</span>
+                            <h3 class="product-title">Semiconductor Components</h3>
+                            <p class="product-desc">High-quality semiconductor components and integrated circuits for various electronic applications.</p>
+                            <div class="product-meta">
+                                <span class="product-spec">Reliable</span>
+                                <span class="product-spec">Bulk Orders</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="machinery">
+                        <div class="product-badge">Featured</div>
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1563205764-6b1d13649d22?w=800&h=600&fit=crop" alt="Construction Equipment">
+                        </div>
+                        <div class="product-content">
+                            <span class="product-category">Machinery</span>
+                            <h3 class="product-title">Heavy Construction Equipment</h3>
+                            <p class="product-desc">Reliable construction machinery including excavators, loaders, and specialized equipment.</p>
+                            <div class="product-meta">
+                                <span class="product-spec">Durable</span>
+                                <span class="product-spec">After-Sales Service</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="food">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800&h=600&fit=crop" alt="Beverage Products">
+                        </div>
+                        <div class="product-content">
+                            <span class="product-category">Food & Beverage</span>
+                            <h3 class="product-title">Premium Green Tea & Beverages</h3>
+                            <p class="product-desc">Authentic Japanese green tea and specialty beverages for international markets.</p>
+                            <div class="product-meta">
+                                <span class="product-spec">Fresh</span>
+                                <span class="product-spec">Private Label</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="textile">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1558171813-4c088753af8f?w=800&h=600&fit=crop" alt="Industrial Textiles">
+                        </div>
+                        <div class="product-content">
+                            <span class="product-category">Textile</span>
+                            <h3 class="product-title">Industrial Safety Gear</h3>
+                            <p class="product-desc">High-quality safety textiles and protective gear for industrial workplaces.</p>
+                            <div class="product-meta">
+                                <span class="product-spec">Safety First</span>
+                                <span class="product-spec">Compliant</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="electronics">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1591488320449-011701bb6704?w=800&h=600&fit=crop" alt="Robotics">
+                        </div>
+                        <div class="product-content">
+                            <span class="product-category">Electronics</span>
+                            <h3 class="product-title">Industrial Robots</h3>
+                            <p class="product-desc">Advanced robotic solutions for automation and manufacturing efficiency.</p>
+                            <div class="product-meta">
+                                <span class="product-spec">High Tech</span>
+                                <span class="product-spec">Training Available</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="machinery">
+                        <div class="product-badge">Exclusive</div>
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&h=600&fit=crop" alt="Medical Equipment">
+                        </div>
+                        <div class="product-content">
+                            <span class="product-category">Machinery</span>
+                            <h3 class="product-title">Medical Imaging Equipment</h3>
+                            <p class="product-desc">State-of-the-art medical imaging systems for healthcare facilities worldwide.</p>
+                            <div class="product-meta">
+                                <span class="product-spec">FDA Approved</span>
+                                <span class="product-spec">Comprehensive Support</span>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <section class="section bg-light">
+            <div class="container text-center">
+                <h2 class="section-title" data-i18n="trade_cta_title">Ready to Start Trading?</h2>
+                <p style="max-width: 700px; margin: 0 auto 40px; color: var(--text-gray); font-size: 1.1rem; line-height: 1.7;" data-i18n="trade_cta_desc">
+                    Connect with our trade experts today to discover how we can help you expand your business globally.
+                </p>
+                <a href="contact.html" class="btn-cta" data-i18n="cta_contact">Contact Us</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h2 data-i18n="footer_company_name">Future International</h2>
+                    <p data-i18n="footer_desc" style="color: #999; line-height: 1.6;">
+                        Excellence in Technology, Real Estate, and Trade.<br>
+                        Connecting the world for a better future.
+                    </p>
+                </div>
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+                        <li><a href="about.html" data-i18n="nav_about">About Us</a></li>
+                        <li><a href="services.html" data-i18n="nav_services">Services</a></li>
+                        <li><a href="trade.html" data-i18n="nav_trade">Trade</a></li>
+                        <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+                        <li><a href="#" data-i18n="footer_privacy">Privacy Policy</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="copyright">
+                <p data-i18n="footer_copyright">&copy; 2025 Future International Co., Ltd. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

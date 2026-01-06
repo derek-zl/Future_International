@@ -3,6 +3,7 @@ const translations = {
         'nav_home': 'Home',
         'nav_about': 'About Us',
         'nav_services': 'Services',
+        'nav_trade': 'Trade',
         'nav_contact': 'Contact',
         'hero_title': 'Pioneering the Future, Beyond Boundaries',
         'hero_subtitle': 'Future International Co., Ltd. delivers world-class solutions in Software, Real Estate, Tourism, and Global Trade.',
@@ -106,12 +107,37 @@ const translations = {
         'footer_company_name': 'Future International',
         'footer_desc': 'Excellence in Technology, Real Estate, and Trade.<br>Connecting the world for a better future.',
         'footer_copyright': '© 2025 Future International Co., Ltd. All Rights Reserved.',
-        'footer_privacy': 'Privacy Policy'
+        'footer_privacy': 'Privacy Policy',
+
+        'trade_products': 'Featured Products',
+        'trade_cta_title': 'Ready to Start Trading?',
+        'trade_cta_desc': 'Connect with our trade experts today to discover how we can help you expand your business globally.',
+
+        'product_mongolia_cup_title': 'Traditional Mongolian Cup',
+        'product_mongolia_cup_desc': 'An exquisite traditional Mongolian ceremonial cup, handcrafted with intricate patterns and cultural significance.',
+        'product_steppe_landscape_title': 'Mongolian Steppe Landscape',
+        'product_steppe_landscape_desc': 'A stunning landscape painting depicting the vast and beautiful Mongolian steppe grasslands under endless sky.',
+        'product_khan_portrait_title': 'Portrait of the Great Khan',
+        'product_khan_portrait_desc': 'A majestic portrait capturing the legacy and power of the Mongolian empire\'s legendary leader.',
+        'product_spec_handmade': 'Handmade',
+        'product_spec_authentic': 'Authentic',
+        'product_spec_artwork': 'Original Artwork',
+        'product_spec_cultural': 'Cultural Value',
+        'product_spec_historical': 'Historical',
+        'product_spec_valuable': 'Collectible',
+
+        'filter_all': 'All',
+        'filter_electronics': 'Electronics',
+        'filter_machinery': 'Machinery',
+        'filter_food': 'Food & Beverage',
+        'filter_textile': 'Textile',
+        'filter_culture': 'Cultural Heritage'
     },
     'jp': {
         'nav_home': 'ホーム',
         'nav_about': '会社概要',
         'nav_services': '事業内容',
+        'nav_trade': '貿易事業',
         'nav_contact': 'お問い合わせ',
         'hero_title': '未来を拓き、国境を越える',
         'hero_subtitle': '未来国際株式会社は、ソフトウェア、不動産、観光、貿易を通じて、世界基準のソリューションを提供します。',
@@ -215,12 +241,37 @@ const translations = {
         'footer_company_name': '未来国際株式会社',
         'footer_desc': '技術、不動産、貿易における卓越性。<br>世界を繋ぎ、より良い未来へ。',
         'footer_copyright': '© 2025 Future International Co., Ltd. All Rights Reserved.',
-        'footer_privacy': 'プライバシーポリシー'
+        'footer_privacy': 'プライバシーポリシー',
+
+        'trade_products': '取扱商品',
+        'trade_cta_title': '貿易を始めませんか？',
+        'trade_cta_desc': '貿易の専門家と連携し、ビジネスをグローバルに拡大する方法を今すぐ発見しましょう。',
+
+        'product_mongolia_cup_title': 'モンゴル伝統の杯',
+        'product_mongolia_cup_desc': '精緻な模様と文化的な意義を持つ、手作りのモンゴル伝統の儀式用カップ。',
+        'product_steppe_landscape_title': 'モンゴル草原の風景画',
+        'product_steppe_landscape_desc': '果てしない空の下、広大で美しいモンゴル草原を描いた素晴らしい風景画。',
+        'product_khan_portrait_title': '偉大なるカンの肖像画',
+        'product_khan_portrait_desc': 'モンゴル帝国の伝説的な指導者の遺産と力を捉えた荘厳な肖像画。',
+        'product_spec_handmade': '手作り',
+        'product_spec_authentic': '本物',
+        'product_spec_artwork': 'オリジナル作品',
+        'product_spec_cultural': '文化的価値',
+        'product_spec_historical': '歴史的',
+        'product_spec_valuable': '収集価値',
+
+        'filter_all': 'すべて',
+        'filter_electronics': '電子機器',
+        'filter_machinery': '機械',
+        'filter_food': '食品・飲料',
+        'filter_textile': '繊維',
+        'filter_culture': '文化遺産'
     },
     'cn': {
         'nav_home': '首页',
         'nav_about': '关于我们',
         'nav_services': '业务领域',
+        'nav_trade': '贸易服务',
         'nav_contact': '联系我们',
         'hero_title': '开拓未来，跨越国界',
         'hero_subtitle': '未来国际株式会社在软件开发、不动产、旅游及国际贸易领域为您提供世界级的解决方案。',
@@ -324,7 +375,31 @@ const translations = {
         'footer_company_name': '未来国际株式会社',
         'footer_desc': '卓越的技术、房地产和贸易服务。连接世界，共创美好未来。',
         'footer_copyright': '© 2025 未来国际株式会社. 版权所有.',
-        'footer_privacy': '隐私政策'
+        'footer_privacy': '隐私政策',
+
+        'trade_products': '精选商品',
+        'trade_cta_title': '准备开始贸易了吗？',
+        'trade_cta_desc': '立即联系我们的贸易专家，了解我们如何帮助您将业务扩展到全球。',
+
+        'product_mongolia_cup_title': '蒙古族传统杯子',
+        'product_mongolia_cup_desc': '一件精美的蒙古族传统礼仪杯，手工制作，图案精美，具有深厚的文化意义。',
+        'product_steppe_landscape_title': '蒙古草原风景画',
+        'product_steppe_landscape_desc': '一幅描绘广阔美丽的蒙古草原在无垠天空下的壮丽风景画。',
+        'product_khan_portrait_title': '可汗画像',
+        'product_khan_portrait_desc': '一幅宏伟的肖像画，捕捉了蒙古帝国传奇领袖的遗产与力量。',
+        'product_spec_handmade': '手工制作',
+        'product_spec_authentic': '正宗',
+        'product_spec_artwork': '原创艺术品',
+        'product_spec_cultural': '文化价值',
+        'product_spec_historical': '历史意义',
+        'product_spec_valuable': '收藏价值',
+
+        'filter_all': '全部',
+        'filter_electronics': '电子产品',
+        'filter_machinery': '机械设备',
+        'filter_food': '食品饮料',
+        'filter_textile': '纺织品',
+        'filter_culture': '文化遗产'
     }
 };
 
@@ -449,5 +524,59 @@ document.addEventListener('DOMContentLoaded', () => {
     // Observe elements with fade-in class
     document.querySelectorAll('.feature-row, .vision-section, .news-card').forEach(el => {
         observer.observe(el);
+    });
+
+    // Trade Page Product Filter
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const productCards = document.querySelectorAll('.product-card');
+
+    if (filterBtns.length > 0) {
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const filter = btn.dataset.filter;
+
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                productCards.forEach(card => {
+                    if (filter === 'all' || card.dataset.category === filter) {
+                        card.style.display = 'block';
+                        card.style.opacity = '0';
+                        card.style.transform = 'translateY(20px)';
+                        setTimeout(() => {
+                            card.style.transition = 'all 0.4s ease';
+                            card.style.opacity = '1';
+                            card.style.transform = 'translateY(0)';
+                        }, 50);
+                    } else {
+                        card.style.opacity = '0';
+                        card.style.transform = 'translateY(20px)';
+                        setTimeout(() => {
+                            card.style.display = 'none';
+                        }, 300);
+                    }
+                });
+            });
+        });
+    }
+
+    // Smooth reveal animations for elements
+    const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+            }
+        });
+    }, {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    });
+
+    document.querySelectorAll('.product-card, .stat-item, .section-title').forEach(el => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(30px)';
+        el.style.transition = 'all 0.6s cubic-bezier(0.16, 1, 0.3, 1)';
+        revealObserver.observe(el);
     });
 });
